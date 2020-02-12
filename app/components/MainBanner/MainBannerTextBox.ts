@@ -4,6 +4,9 @@ export default styled.div`
   color:white;
   font-family:'Roboto', sans-serif;
   margin-bottom: 20px;
+  @media(max-width: 767px) {
+    margin-left: 15px ;
+  }
   .title{
     font-size: 17px;
     margin-bottom:10px;
