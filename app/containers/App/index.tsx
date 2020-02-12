@@ -19,7 +19,12 @@ import Footer from 'components/Footer';
 import ChannelTalk from 'components/ChannelTalk';
 
 import GlobalStyle from '../../global-styles';
+<<<<<<< HEAD
 import MainBanner from 'components/MainBanner';
+=======
+import TextTitle from 'components/TextTitle';
+import FeatureSection from 'components/FeatureSection';
+>>>>>>> featureSection
 
 const AppWrapper = styled.div`
   margin: 0 auto;
@@ -41,7 +46,16 @@ export default function App() {
         })}
       </Helmet>
       <Header />
+<<<<<<< HEAD
       <MainBanner/>
+=======
+      <FeatureSection />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+        <Route path="/features" component={FeaturePage} />
+        <Route path="" component={NotFoundPage} />
+      </Switch>
+>>>>>>> featureSection
       <Footer />
       <GlobalStyle />
     </AppWrapper>
