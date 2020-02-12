@@ -1,28 +1,63 @@
 import * as React from 'react';
 import { FormattedMessage } from 'react-intl';
 
-import A from 'components/A';
-import LocaleToggle from 'containers/LocaleToggle';
+import Title from './Title';
+import Container from './Container';
 import Wrapper from './Wrapper';
-import messages from './messages';
+import List from './List';
 
 function Footer() {
   return (
     <Wrapper>
-      <section>
-        <FormattedMessage {...messages.licenseMessage} />
-      </section>
-      <section>
-        <LocaleToggle/>
-      </section>
-      <section>
-        <FormattedMessage
-          {...messages.authorMessage}
-          values={{
-            author: <A href="https://twitter.com/mxstbr">Max Stoiber</A>,
-          }}
-        />
-      </section>
+      <Container>
+        <Title>
+          과일냉장고
+        </Title>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+        <List>
+              <div className="title">평일 </div>
+              <div className="contents">20~30</div>
+        </List>
+      </Container>
     </Wrapper>
   );
 }

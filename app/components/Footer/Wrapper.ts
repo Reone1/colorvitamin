@@ -1,10 +1,10 @@
 import styled from 'styles/styled-components';
 
 const Wrapper = styled.footer`
-  display: flex;
-  justify-content: space-between;
+  position:static;
+  bottom:0;
+  background-color:#f4f5f6;
   padding: 3em 0;
-  border-top: 1px solid #666;
 `;
 
 export default Wrapper;
