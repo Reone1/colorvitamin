@@ -19,12 +19,12 @@ import Footer from 'components/Footer';
 import ChannelTalk from 'components/ChannelTalk';
 
 import GlobalStyle from '../../global-styles';
-<<<<<<< HEAD
+import {Apple} from 'components/PricingSection/img/Apple.jpg';
 import MainBanner from 'components/MainBanner';
-=======
 import TextTitle from 'components/TextTitle';
 import FeatureSection from 'components/FeatureSection';
->>>>>>> featureSection
+import PricingSection from 'components/PricingSection';
+import ApplySection from 'components/ApplySection';
 
 const AppWrapper = styled.div`
   margin: 0 auto;
@@ -48,11 +48,8 @@ export default function App() {
       <Header />
       <MainBanner/>
       <FeatureSection />
-      <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/features" component={FeaturePage} />
-        <Route path="" component={NotFoundPage} />
-      </Switch>
+      <PricingSection />
+      <ApplySection/>
       <Footer />
       <GlobalStyle />
     </AppWrapper>
