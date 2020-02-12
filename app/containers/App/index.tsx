@@ -46,16 +46,13 @@ export default function App() {
         })}
       </Helmet>
       <Header />
-<<<<<<< HEAD
       <MainBanner/>
-=======
       <FeatureSection />
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/features" component={FeaturePage} />
         <Route path="" component={NotFoundPage} />
       </Switch>
->>>>>>> featureSection
       <Footer />
       <GlobalStyle />
     </AppWrapper>
