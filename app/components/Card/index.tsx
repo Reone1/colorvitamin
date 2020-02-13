@@ -10,8 +10,7 @@ interface Props {
     price?: string;
 }
 
-export default (props: Props) => {
-    const {src, title, pricing, price } = props;
+export default ({ src, title, pricing, price }: Props) => {
     return(
         <Wrapper>
             <Img src={src}/>

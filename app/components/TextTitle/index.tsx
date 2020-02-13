@@ -6,8 +6,7 @@ interface Props {
     subtitle?: string;
 }
 
-export default (props: Props) => {
-    const {title, subtitle} = props;
+export default ({ title, subtitle }: Props) => {
     return(
         <TitleContainer>
             <div className="title">{title}</div>

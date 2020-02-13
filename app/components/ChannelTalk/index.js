@@ -31,7 +31,7 @@ class ChannelService {
       s.src = 'https://cdn.channel.io/plugin/ch-plugin-web.js';
       s.charset = 'UTF-8';
       const x = document.getElementsByTagName('script')[0];
-      x.parentNode.insertBefore(s, x);
+      if (x) x.parentNode.insertBefore(s, x);
     }
     if (document.readyState === 'complete') {
       l();

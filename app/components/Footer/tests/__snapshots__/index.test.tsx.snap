@@ -2,48 +2,88 @@
 
 exports[`<Footer /> should render and match the snapshot 1`] = `
 <footer
-  className="sc-bxivhb dtkJYr"
+  className="sc-htpNat fJHyQx"
 >
-  <section>
-    <span>
-      This project is licensed under the MIT license.
-    </span>
-  </section>
-  <section>
+  <div
+    className="sc-bwzfXH iqVJKB"
+  >
     <div
-      className="sc-htpNat ffBkYG"
+      className="sc-bdVaJa hThAqd"
     >
-      <select
-        className="sc-bwzfXH eFNPLc"
-        onChange={[Function]}
-        value="en"
-      >
-        <option
-          value="en"
-        >
-          en
-        </option>
-        <option
-          value="de"
-        >
-          de
-        </option>
-      </select>
+      <b>
+        과일냉장고
+      </b>
     </div>
-  </section>
-  <section>
-    <span>
-      
-      Made with love by 
-      <a
-        className="sc-bdVaJa cpswpp"
-        href="https://twitter.com/mxstbr"
+    <div
+      className="sc-bxivhb bkphtN"
+    >
+      <div
+        className="title"
       >
-        Max Stoiber
-      </a>
-      .
-    
-    </span>
-  </section>
+        평 일
+      </div>
+      <div
+        className="contents"
+      >
+        9:00 - 18:00
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb bkphtN"
+    >
+      <div
+        className="title"
+      >
+        토요일
+      </div>
+      <div
+        className="contents"
+      >
+        9:00 - 13:00 (홈페이지 채팅문의만 운영)
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb bkphtN"
+    >
+      <div
+        className="title"
+      >
+        공휴일
+      </div>
+      <div
+        className="contents"
+      >
+        휴무
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb bkphtN"
+    >
+      <div
+        className="title"
+      >
+        점 심
+      </div>
+      <div
+        className="contents"
+      >
+        13:00 - 14:00
+      </div>
+    </div>
+    <div
+      className="sc-bxivhb bkphtN"
+    >
+      <div
+        className="title"
+      >
+        대표
+      </div>
+      <div
+        className="contents"
+      >
+        민효식
+      </div>
+    </div>
+  </div>
 </footer>
 `;
