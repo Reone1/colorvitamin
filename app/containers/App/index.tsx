@@ -9,19 +9,17 @@
 import * as React from 'react';
 import { Helmet } from 'react-helmet';
 import styled from 'styles/styled-components';
-import { Switch, Route } from 'react-router-dom';
+// import { Switch, Route } from 'react-router-dom';
 
-import HomePage from 'containers/HomePage/Loadable';
-import FeaturePage from 'containers/FeaturePage/Loadable';
-import NotFoundPage from 'containers/NotFoundPage/Loadable';
+// import HomePage from 'containers/HomePage/Loadable';
+// import FeaturePage from 'containers/FeaturePage/Loadable';
+// import NotFoundPage from 'containers/NotFoundPage/Loadable';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 import ChannelTalk from 'components/ChannelTalk';
 
 import GlobalStyle from '../../global-styles';
-import {Apple} from 'components/PricingSection/img/Apple.jpg';
 import MainBanner from 'components/MainBanner';
-import TextTitle from 'components/TextTitle';
 import FeatureSection from 'components/FeatureSection';
 import PricingSection from 'components/PricingSection';
 import ApplySection from 'components/ApplySection';
