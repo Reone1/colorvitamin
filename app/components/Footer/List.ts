@@ -2,7 +2,7 @@ import styled from 'styles/styled-components';
 
 export default styled.div`
     color:#6f7174;
-    margin-bottom:5px;
+    margin-bottom:5px ;
     font-size:14px;
 
     div {
