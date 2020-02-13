@@ -1,13 +1,11 @@
 import * as React from 'react';
 import {Helmet} from 'react-helmet';
-import { FormattedMessage } from 'react-intl';
+// import { FormattedMessage } from 'react-intl';
 
-import A from './A';
-import Img from './Img';
+// import A from './A';
+// import Img from './Img';
 import NavBar from './NavBar';
 import Wrapper from './Wrapper';
-import Banner from './banner.jpg';
-import messages from './messages';
 
 function Header() {
   return (
