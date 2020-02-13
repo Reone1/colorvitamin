@@ -1,5 +1,4 @@
 import * as React from 'react';
-import { FormattedMessage } from 'react-intl';
 
 import Title from './Title';
 import Container from './Container';

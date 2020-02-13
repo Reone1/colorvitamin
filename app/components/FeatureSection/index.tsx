@@ -1,6 +1,6 @@
-import * as React from 'react'
-import Wrapper from './Wrapper'
-import TextTitle from 'components/TextTitle'
+import * as React from 'react';
+import Wrapper from './Wrapper';
+import TextTitle from 'components/TextTitle';
 import Description from './Description';
 
 export default () => {

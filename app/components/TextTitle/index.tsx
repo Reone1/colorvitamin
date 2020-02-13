@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import TitleContainer from './TitleContainer'
+import TitleContainer from './TitleContainer';
 interface Props {
     title: string;
     subtitle?: string;

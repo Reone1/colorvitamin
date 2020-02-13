@@ -1,4 +1,4 @@
-import styled from 'styles/styled-components'
+import styled from 'styles/styled-components';
 
 export default styled.div`
     font-size:15px;

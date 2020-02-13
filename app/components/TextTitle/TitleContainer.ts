@@ -9,4 +9,4 @@ export default styled.div`
     .subtitle{
         font-size:18px;
     }
-`
+`;

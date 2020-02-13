@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Helmet} from 'react-helmet'
+import {Helmet} from 'react-helmet';
 import { FormattedMessage } from 'react-intl';
 
 import A from './A';

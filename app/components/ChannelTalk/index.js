@@ -6,11 +6,13 @@ class ChannelService {
   loadScript() {
     const w = window;
     if (w.ChannelIO) {
-      return (window.console.error || window.console.log || function () {})('ChannelIO script included twice.');
+      return (window.console.error || window.console.log)(
+        'ChannelIO script included twice.',
+      );
     }
 
-    const ch = () => {
-      ch.c(arguments);
+    const ch = (...args) => {
+      ch.c(args);
     };
     ch.q = [];
     ch.c = args => {
