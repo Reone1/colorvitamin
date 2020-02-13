@@ -35,10 +35,10 @@ export default function App() {
   return (
     <AppWrapper>
       <Helmet
-        titleTemplate="%s - React.js Boilerplate"
-        defaultTitle="React.js Boilerplate"
+        titleTemplate="과일냉장고"
+        defaultTitle="과일냉장고"
       >
-        <meta name="description" content="A React.js Boilerplate application" />
+        <meta name="description" content="colorVitamin" />
         {ChannelTalk.boot({
           pluginKey: '6c76ca3b-dbad-41d0-8464-ca4308c13f16',
         })}
