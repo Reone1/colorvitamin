@@ -6,6 +6,7 @@ export default styled.div`
   margin-bottom: 20px;
   @media(max-width: 767px) {
     margin-left: 15px ;
+    text-align:center;
   }
   .title{
     font-size: 17px;
