@@ -39,10 +39,7 @@ export default function App() {
         defaultTitle="과일냉장고"
       >
         <meta name="description" content="과일 냉장고" />
-
-        <meta property="og:title" content="과일 냉장고" />
-        <meta property="og:description" content="뭉치면 과일로켓 발사! 관악구 사무실, 학원 등 매일 무료배송"/>
-        <meta property="og:image" content="http://nomad.farm//fc97b1adee46a801053fb57f809cf062.jpg" />
+        
         {ChannelTalk.boot({
           pluginKey: '6c76ca3b-dbad-41d0-8464-ca4308c13f16',
         })}

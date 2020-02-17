@@ -24,7 +24,7 @@ import App from 'containers/App';
 import LanguageProvider from 'containers/LanguageProvider';
 
 // Load the favicon and the .htaccess file
-import '!file-loader?name=[name].[ext]!./images/favicon.ico';
+import '!file-loader?name=[name].[ext]!./images/favicon-96x96.png';
 import 'file-loader?name=.htaccess!./.htaccess';
 
 import configureStore from './configureStore';

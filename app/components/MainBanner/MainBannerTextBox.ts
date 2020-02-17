@@ -4,8 +4,8 @@ export default styled.div`
   color:white;
   font-family:'Roboto', sans-serif;
   margin-bottom: 20px;
-  @media(max-width: 767px) {
-    margin-left: 15px ;
+  @media(max-width: 768px) {
+    margin-left: 15px;
     text-align:center;
   }
   .title{
